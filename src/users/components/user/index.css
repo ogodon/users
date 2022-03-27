@@ -1,0 +1,42 @@
+.user {
+  text-align: left;
+  padding: 5px;
+}
+
+.user-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.user-title .user-title-name {
+  padding-left: 10px;
+  align-self: center;
+  white-space: nowrap;
+  overflow-x: hidden;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.user-title .user-title-picture {
+  align-self: center;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.user-pictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.user-pictures .user-title-picture {
+  align-self: center;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+

@@ -1,0 +1,39 @@
+.users-list-user {
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.users-list-user:hover {
+  background-color: #f8f8f8;
+}
+
+.users-list-user div {
+  align-self: center;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.user-img {
+  padding: 3px 0 0 4px;
+  flex: 0 0 54px;
+}
+
+.user-img img.img {
+  width: 48px;
+  height: 48px;
+}
+
+.user-name-dob {
+  text-align: left;
+}
+
+.user-name, .user-dob {
+  padding-left: 5px;
+  white-space: nowrap;
+  overflow-y: hidden;
+  flex: 0 1 0;
+}

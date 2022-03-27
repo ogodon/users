@@ -1,0 +1,15 @@
+.block {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #eee;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  background-color: #fafafa;
+}
+
+.block-label {
+  text-align: center;
+  font-size: 1.2em;
+}

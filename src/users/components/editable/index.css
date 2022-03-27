@@ -1,0 +1,66 @@
+.editable {
+  margin: 5px;
+  padding: 5px 5px 0 5px;
+  text-align: left;
+  background-color: #eee;
+  overflow: hidden;
+}
+
+.editable .label {
+  font-weight: bold;
+}
+
+.editable .text-wrapper {
+  height: 2em;
+}
+
+.editable .text {
+  padding-top: 4px;
+  padding-left: 2px;
+  color: #333;
+  width: calc(100% - 5px);
+  height: 1.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.editable button {
+  border: none;
+  margin-left: 2px;
+  width: 35px;
+  height: 26px;
+  padding-top: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.editable button svg {
+  vertical-align: -3px;
+  margin-left: 1px;
+}
+
+.editable button.submit {
+  background-color: #1dc21d;
+}
+
+.editable button.cancel {
+  background-color: #bf1b15;
+}
+
+.editable input {
+  border: none;
+  background-color: #fff;
+  height: 26px;
+  width: calc(100% - 77px);
+  padding-left: 2px;
+}
+
+.editable select {
+  appearance: auto;
+  border: none;
+  background-color: #fff;
+  height: 26px;
+  width: calc(100% - 75px);
+  padding-top: -1px;
+}

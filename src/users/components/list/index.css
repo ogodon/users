@@ -1,0 +1,10 @@
+.users-list {
+  width: 100%;
+  text-align: left;
+}
+
+.users-list-user-wrapper {
+  min-width: 300px;
+  display: inline-block;
+  padding: 3px;
+}

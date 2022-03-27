@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: "Gill Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000;
+  font-size: 1em;
+}
+
+input, button, select {
+  font-size: 1em;
+  padding: 0;
+  font-family: "Gill Sans", sans-serif;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+}
+
+a, a:hover, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.header {
+  padding-left: 10px;
+  height: 70px;
+  line-height: 70px;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.header a, .header a:hover, .header a:visited {
+  color: #333;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 300px) {
+  .app {
+    margin: auto;
+    width: 98%;
+  }
+
+  .column.user {
+    width: 98%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 4px;
+  }
+
+  .users-list-user-wrapper {
+    min-width: 300px;
+    width: 20%;
+    display: inline-block;
+    padding: 3px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .app {
+    margin: auto;
+    width: 98%;
+  }
+
+  .column.user {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 4px;
+  }
+
+  .users-list-user-wrapper {
+    min-width: 300px;
+    width: 20%;
+    display: inline-block;
+    padding: 3px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .app {
+    margin: auto;
+    width: 90%;
+  }
+
+  .column.user {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 4px;
+  }
+}
+
+
+@media screen and (min-width: 300px) {
+  .users-list-user-wrapper {
+    width: 98%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .users-list-user-wrapper {
+    width: 49%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .users-list-user-wrapper {
+    width: 24%;
+  }
+}
