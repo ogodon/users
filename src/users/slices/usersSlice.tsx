@@ -13,7 +13,6 @@ export const usersSlice = createSlice({
       state.users = action.payload
     },
     update: (state, action: PayloadAction<User>) => {
-      console.log('update')
       const index = state.users.findIndex(user => user.login.uuid === action.payload.login.uuid);
       if(index !== -1) {
         state.users = [
@@ -24,7 +23,6 @@ export const usersSlice = createSlice({
       }
     },
     check: (state, action: PayloadAction<User>) => {
-      console.log('check')
       const uuid = action.payload.login.uuid;
       const index = state.users.findIndex(user => user.login.uuid === uuid);
       if(index !== -1) {

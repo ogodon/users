@@ -9,7 +9,6 @@ const fetchUsers = async (store: any) => {
 };
 
 const usersMiddleware:Middleware = (store: MiddlewareAPI) => (next: Dispatch) => (action: Action) => {
-  console.log(action, store.getState());
   if(action.type === 'users/get') {
     fetchUsers(store);
   }
